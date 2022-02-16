@@ -1,6 +1,8 @@
 # chatAppGo
 
-A simple go application to exchange messages
+A simple go application to exchange messages between clients. All clients
+connect to a server, then the user can send message through a TCP socket,
+the server will broadcast the message to all other clients.
 
 ## How to use it
 
